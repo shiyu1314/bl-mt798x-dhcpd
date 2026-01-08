@@ -8,7 +8,7 @@ output_folder="./output_gpt"
 VERSION=${VERSION:-2024}
 
 if [ "$VERSION" = "2022" ]; then
-    tools_folder="./atf-20231013-0ea67d76a/tools/dev/gpt_editor"
+    tools_folder="./atf-20220606-637ba581b/tools/dev/gpt_editor"
 elif [ "$VERSION" = "2023" ]; then
     tools_folder="./atf-20231013-0ea67d76a/tools/dev/gpt_editor"
 elif [ "$VERSION" = "2024" ]; then
