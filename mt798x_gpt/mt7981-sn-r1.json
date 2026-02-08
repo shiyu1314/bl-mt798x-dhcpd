@@ -3,36 +3,36 @@
 		"start": 8192,
 		"end": 9215,
 		"part_type_guid": "{0fc63daf-8483-4772-8e79-3d69d8477de4}",
-		"unique_part_guid": "{19a4763a-6b19-4a4b-a0c4-8cc34f4c2ab9}"
+		"unique_part_guid": "{493dcd1a-59c0-11ee-b4d0-b083fea0360d}"
 	},
 	"factory": {
 		"start": 9216,
 		"end": 13311,
 		"part_type_guid": "{0fc63daf-8483-4772-8e79-3d69d8477de4}",
-		"unique_part_guid": "{8142c1b2-1697-41d9-b1bf-a88d76c7213f}"
+		"unique_part_guid": "{493ddcce-59c0-11ee-b4d0-b083fea0360d}"
 	},
 	"fip": {
 		"start": 13312,
 		"end": 17407,
 		"part_type_guid": "{0fc63daf-8483-4772-8e79-3d69d8477de4}",
-		"unique_part_guid": "{18de6587-4f17-4e08-a6c9-d9d3d424f4c5}"
+		"unique_part_guid": "{493de9f8-59c0-11ee-b4d0-b083fea0360d}"
+	},
+	"config": {
+		"start": 17408,
+		"end": 18431,
+		"part_type_guid": "{0fc63daf-8483-4772-8e79-3d69d8477de4}",
+		"unique_part_guid": "{493df68c-59c0-11ee-b4d0-b083fea0360d}"
 	},
 	"kernel": {
-		"start": 17408,
-		"end": 82943,
+		"start": 18432,
+		"end": 149503,
 		"part_type_guid": "{0fc63daf-8483-4772-8e79-3d69d8477de4}",
-		"unique_part_guid": "{971f7556-ef1a-44cd-8b28-0cf8100b9c7e}"
+		"unique_part_guid": "{493e030c-59c0-11ee-b4d0-b083fea0360d}"
 	},
 	"rootfs": {
-		"start": 82944,
-		"end": 2180095,
+		"start": 149504,
+		"end": 124735454,
 		"part_type_guid": "{0fc63daf-8483-4772-8e79-3d69d8477de4}",
-		"unique_part_guid": "{309a3e76-270b-41b2-b5d5-ed8154e7542b}"
-	},
-	"userdata": {
-		"start": 2180096,
-		"end": 231293952,
-		"part_type_guid": "{0fc63daf-8483-4772-8e79-3d69d8477de4}",
-		"unique_part_guid": "{909a3e76-2703-4112-b0d5-ed8154375482}"
+		"unique_part_guid": "{493e0f82-59c0-11ee-b4d0-b083fea0360d}"
 	}
 }
