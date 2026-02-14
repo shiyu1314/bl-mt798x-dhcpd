@@ -190,7 +190,7 @@ jobs:
           BOARD="${CONFIG#*_}"
           export BOARD="${BOARD%_*}"
           mkdir -p "output"
-          SOC="$SOC" BOARD="$BOARD" VERSION=2025 MAINLINE=1 ./build.sh 2>&1 | tee "output/build-${SOC}-${BOARD}-2025.log"
+          SOC="$SOC" BOARD="$BOARD" VERSION=2025 VARIANT=ubootmod ./build.sh 2>&1 | tee "output/build-${SOC}-${BOARD}-2025.log"
           echo "ARTIFACT_NAME=$SOC-$BOARD" >> "$GITHUB_ENV"
 
       - name: Organize and rename outputs

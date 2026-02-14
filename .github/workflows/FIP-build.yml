@@ -481,10 +481,10 @@ jobs:
             model_name="${entry#*_}"
             echo "正在编译${version}版本FIP（SOC：$soc，机型：$model_name）..."
             if [ "${{ github.event.inputs.MULTI_LAYOUT }}" = "true" ]; then
-              SOC="$soc" BOARD="$model_name" VERSION=${version} MULTI_LAYOUT=1 ./build.sh 2>&1 | tee "output/build-${soc}-${model_name}-${version}.log"
+              SOC="$soc" BOARD="$model_name" VERSION=${version} MULTI_LAYOUT=1 SLIENT=Y ./build.sh 2>&1 | tee "output/build-${soc}-${model_name}-${version}.log"
               build_rc=${PIPESTATUS[0]}
             else
-              SOC="$soc" BOARD="$model_name" VERSION=${version} ./build.sh 2>&1 | tee "output/build-${soc}-${model_name}-${version}.log"
+              SOC="$soc" BOARD="$model_name" VERSION=${version} SLIENT=Y ./build.sh 2>&1 | tee "output/build-${soc}-${model_name}-${version}.log"
               build_rc=${PIPESTATUS[0]}
             fi
 
