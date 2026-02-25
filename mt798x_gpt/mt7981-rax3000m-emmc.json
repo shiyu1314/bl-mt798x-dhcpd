@@ -31,8 +31,14 @@
 	},
 	"rootfs": {
 		"start": 154624,
-		"end": 122126302,
+		"end": 2251775,
 		"part_type_guid": "{0fc63daf-8483-4772-8e79-3d69d8477de4}",
 		"unique_part_guid": "{493e0f82-59c0-11ee-b4d0-b083fea0360d}"
+	},
+	"primary": {
+		"start": 2251776,
+		"end": 122126302,
+		"part_type_guid": "{0fc63daf-8483-4772-8e79-3d69d8477de4}",
+		"unique_part_guid": "{493e1af4-59c0-11ee-b4d0-b083fea0360d}"
 	}
 }
